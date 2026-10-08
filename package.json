@@ -1,0 +1,32 @@
+{
+  "name": "pi-clear-footer",
+  "version": "0.1.0",
+  "description": "A compact, single-line Pi footer showing directory, session, branch, context usage, provider, model, and thinking level.",
+  "type": "module",
+  "files": [
+    "clear-footer.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredeerock/pi-clear-footer.git"
+  },
+  "homepage": "https://github.com/fredeerock/pi-clear-footer#readme",
+  "bugs": {
+    "url": "https://github.com/fredeerock/pi-clear-footer/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./clear-footer.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
